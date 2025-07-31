@@ -6,15 +6,24 @@ filenames = glob.glob(carpeta + "/*.csv")
 
 archivos_csv = []
 for filename in filenames:
-    archivos_csv.append(pd.read_csv(filename))
-
+    try:
+        data = pd.read_csv(filename)
+        archivos_csv.append(pd.read_csv(filename))
+        print(f"Archivo cargado correctamente: {filename}")
+    except Exception as e:
+        print(f"Error al cargar: {filename} por: {e}")
+        
 big_frame = pd.concat(archivos_csv, ignore_index=True)
 
+print(f"\nTotal de archivos procesados: {len(archivos_csv)}")
+
 forma = big_frame.shape
-print("forma del dataframe: " , forma)
+print(f"\nForma del dataframe: {forma}")
     
+print("\nTipos de datos: ")
 tipos_datos = big_frame.dtypes
-print("tipos de datos: ", tipos_datos)
-    
+print(tipos_datos)
+
+print("\nValores nulos del dataframe: ")
 valores_nulos = big_frame.isnull().sum()
-print("valores nulos del dataframe: ", valores_nulos)
+print(valores_nulos)
