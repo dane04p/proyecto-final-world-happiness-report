@@ -1,0 +1,18 @@
+Dataset elegido: World Happiness Report
+
+Elegimos el dataset World Happiness Report debido a la gran cantidad de variables que contiene, lo cual resulta realmente útil para la generación de un análisis completo y una buena práctica en la creación de visualizaciones de datos. 
+
+A través del presente análisis se pretenden responder preguntas como las siguientes:
+
+1.	¿Cuáles son los principales factores que influyen en el puntaje de felicidad de un país?
+2.	¿Existe una relación directa entre un mayor puntaje de felicidad y una mayor esperanza de vida?
+3.	¿Puede la percepción de la corrupción de un país tener efectos negativos en la felicidad de sus habitantes?
+4.	¿Cuáles son los países más felices dentro de la base de datos y qué factores explican esa felicidad?
+
+Para responder estas preguntas se crearán distintas visualizaciones. Por ejemplo, una opción viable es la elaboración de un diagrama de correlación que permita identificar cuáles son los principales factores que influyen directamente en la felicidad de las personas. 
+También se generará un gráfico de dispersión donde se podrá determinar si es correcto decir que a mayor puntaje de felicidad hay una mayor esperanza de vida. Este se puede reforzar con un gráfico lineal donde se visualice el comportamiento de ambas variables a través del tiempo. 
+
+Por otro lado, se pretende realizar un mapa geográfico donde a través de la coloración de los países se logre observar cuál es el orden de felicidad de estos. Y por medio de un gráfico radar determinar cuales son los factores que tienen una mayor influencia en dicha felicidad. 
+Además, con gráficos de barras se compararán las variables de percepción de la corrupción versus el grado de felicidad, lo que permitirá entender si estas se encuentran directamente relacionadas y si el crecimiento de una provoca la disminución de la otra. 
+
+De esta manera se logrará generar un análisis integral de la información y se podrán cumplir los objetivos planteados. 
