@@ -1,7 +1,7 @@
 import glob
 import pandas as pd
 
-carpeta = r'C:\Users\Usuario\OneDrive\Desktop\proyecto-final\archive'
+carpeta = r'C:\Users\Prestamo\Desktop\Yerlin\Curso_Python\Proyecto_final\archive'
 filenames = glob.glob(carpeta + "/*.csv")
 
 archivos_csv = []
